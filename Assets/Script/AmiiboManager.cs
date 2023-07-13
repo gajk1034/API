@@ -23,7 +23,7 @@ public class AmiiboManager : MonoBehaviour
     /// <summary>
     /// 輸入關鍵字搜索
     /// </summary>
-    /// <param name="searchQuery"></param>
+    /// <param name="searchInput"></param>
     public void SearchAmiibo(string searchInput)
     {
         string url = baseURL + "amiibo/?name=" + UnityWebRequest.EscapeURL(searchInput);
