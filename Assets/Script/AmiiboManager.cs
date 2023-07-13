@@ -11,6 +11,7 @@ public class AmiiboManager : MonoBehaviour
     public GameObject prefab;
     public GameObject parentGameObj;
     public Amiibo_SO amiibo_SO;
+    //const用於 運行時無法更改
     private const string baseURL = "https://www.amiiboapi.com/api/";
 
     private void Start() 
@@ -23,9 +24,9 @@ public class AmiiboManager : MonoBehaviour
     /// 輸入關鍵字搜索
     /// </summary>
     /// <param name="searchQuery"></param>
-    public void SearchAmiibo(string searchQuery)
+    public void SearchAmiibo(string searchInput)
     {
-        string url = baseURL + "amiibo/?name=" + UnityWebRequest.EscapeURL(searchQuery);
+        string url = baseURL + "amiibo/?name=" + UnityWebRequest.EscapeURL(searchInput);
 
         // 發送GET請求
         StartCoroutine(SendRequest(url));
@@ -38,7 +39,7 @@ public class AmiiboManager : MonoBehaviour
             // 發送請求並等待回應
             yield return request.SendWebRequest();
 
-            // 檢查有無錯誤
+            // 檢查有無錯誤 ConnectionError是連結錯誤。 ProtocolError代表返回了錯誤代碼
             if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
             {
                 Debug.LogError("Error: " + request.error);
@@ -82,6 +83,7 @@ public class AmiiboManager : MonoBehaviour
             text[0].text = "系列: " + amiiboData.amiiboSeries;
             text[1].text = "名稱: " + amiiboData.name;
             string imageURL = amiiboData.image;
+            
             imageLoad.LoadImageFromURL(imageURL);
 
             instantiatedPrefabs.Add(newObject);

@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour
     public InputField inputField;
     public Button button;
     
-    string searchQuery;
+    string searchInput;
     public AmiiboManager amiiboManager;
 
     private void Start()
@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
     private void OnButtonClick()
     {
         string inputText = inputField.text;
-        searchQuery = inputText;
-        amiiboManager.SearchAmiibo(searchQuery);
+        searchInput = inputText;
+        amiiboManager.SearchAmiibo(searchInput);
     }
 }
