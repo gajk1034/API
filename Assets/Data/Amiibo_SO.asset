@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baa0147be30bb84dbdc45e582386bc1, type: 3}
+  m_Name: Amiibo_SO
+  m_EditorClassIdentifier: 
+  amiiboList:
+  - amiiboSeries: Super Smash Bros.
+    name: Mario
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-00000002.png
+  - amiiboSeries: Super Mario Bros.
+    name: Mario
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-00340102.png
+  - amiiboSeries: Super Mario Bros.
+    name: Mario - Gold Edition
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-003c0102.png
+  - amiiboSeries: Super Mario Bros.
+    name: Mario - Silver Edition
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-003d0102.png
+  - amiiboSeries: 8-bit Mario
+    name: 8-Bit Mario Classic Color
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-02380602.png
+  - amiiboSeries: 8-bit Mario
+    name: 8-Bit Mario Modern Color
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-02390602.png
+  - amiiboSeries: Super Mario Bros.
+    name: Mario - Wedding
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-03710102.png
+  - amiiboSeries: Super Nintendo World
+    name: Mario - Power Up Band
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000003-039bff02.png
+  - amiiboSeries: Super Smash Bros.
+    name: Dr. Mario
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000100-00190002.png
+  - amiiboSeries: Super Mario Bros.
+    name: Mario - Cat
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000300-03a60102.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Mario - Soccer
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00101-02690e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Mario - Baseball
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00201-026a0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Mario - Tennis
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00301-026b0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Mario - Golf
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00401-026c0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Mario - Horse Racing
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c00501-026d0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Baby Mario - Soccer
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0101-02a50e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Baby Mario - Baseball
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0201-02a60e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Baby Mario - Tennis
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0301-02a70e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Baby Mario - Golf
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0401-02a80e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Baby Mario - Horse Racing
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09cc0501-02a90e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Metal Mario - Soccer
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00101-02b90e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Metal Mario - Baseball
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00201-02ba0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Metal Mario - Tennis
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00301-02bb0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Metal Mario - Golf
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00401-02bc0e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Metal Mario - Horse Racing
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09d00501-02bd0e02.png
+  - amiiboSeries: Others
+    name: Super Mario Cereal
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_37400001-03741402.png
+  - amiiboSeries: Super Smash Bros.
+    name: Wario
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00070000-001a0002.png
+  - amiiboSeries: Super Mario Bros.
+    name: Wario
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00070000-02630102.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Wario - Soccer
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50101-02820e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Wario - Baseball
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50201-02830e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Wario - Tennis
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50301-02840e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Wario - Golf
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50401-02850e02.png
+  - amiiboSeries: Mario Sports Superstars
+    name: Wario - Horse Racing
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50501-02860e02.png
+  - amiiboSeries: Super Smash Bros.
+    name: Pokemon Trainer
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_1d400000-03870002.png
+  - amiiboSeries: Super Smash Bros.
+    name: Zelda
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01010000-000e0002.png
+  - amiiboSeries: Legend Of Zelda
+    name: Toon Zelda - The Wind Waker
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01010000-03520902.png
+  - amiiboSeries: Legend Of Zelda
+    name: Zelda
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01010000-03560902.png
+  - amiiboSeries: Legend Of Zelda
+    name: Zelda & Loftwing
+    image: https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01010300-04140902.png
