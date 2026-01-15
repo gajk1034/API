@@ -11,6 +11,7 @@ public class AmiiboManager : MonoBehaviour
     public GameObject prefab;
     public GameObject parentGameObj;
     public Amiibo_SO amiibo_SO;
+    public HorizontalScrollView horizontalScrollView;
     //const用於 運行時無法更改
     private const string baseURL = "https://www.amiiboapi.com/api/";
 
@@ -83,10 +84,16 @@ public class AmiiboManager : MonoBehaviour
             text[0].text = "系列: " + amiiboData.amiiboSeries;
             text[1].text = "名稱: " + amiiboData.name;
             string imageURL = amiiboData.image;
-            
+
             imageLoad.LoadImageFromURL(imageURL);
 
             instantiatedPrefabs.Add(newObject);
+        }
+
+        // 重置橫向滾動位置到最左邊
+        if (horizontalScrollView != null)
+        {
+            horizontalScrollView.ScrollToStart();
         }
     }
 }
